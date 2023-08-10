@@ -25,7 +25,7 @@ p {
   background-image: url("images/sec1/group-1-20201127104109.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -80,7 +80,7 @@ p {
   z-index: 0;
 }
 
-.container {
+.container_sec1 {
   margin-top: 250px;
 }
 
@@ -99,13 +99,22 @@ p {
   text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 }
 
+.reasons {
+  margin-bottom: 50px;
+}
+
 .reason {
   display: flex;
 
   align-items: center;
+  margin-top: 20px;
 }
 
-.row {
+.reason p {
+  font-size: 20px;
+}
+
+.reason_row {
   width: 60%;
   margin: 0 auto;
 }
@@ -129,3 +138,119 @@ p {
 }
 
 /* section 1 */
+
+/* section2 */
+
+.section2 {
+  width: 1280px;
+}
+
+.section2_wrapper {
+  width: 100%;
+  background-image: url("images/sec2/layer-3-20201127094111.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sec2_title {
+  font-size: 50px;
+  font-family: flavour;
+  font-weight: 600;
+  text-shadow: rgba(0, 0, 0, 0.25) 6px 5px 4px;
+}
+
+.sec2_text {
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px;
+  text-shadow: rgba(0, 0, 0, 0.25) 6px 5px 4px;
+}
+
+/* section2 */
+
+/* section3 */
+
+.section3_wrapper {
+  width: 100%;
+  background-image: url("images/sec3/layer-4-20201127094111.png");
+}
+
+.section3 {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.sec3_image img {
+  width: 100%;
+}
+.content_title {
+  font-size: 61px;
+  font-weight: bolder;
+  font-family: flavour;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: rgba(0, 0, 0, 0.25) 6px 5px 4px;
+}
+.content_text {
+  font-size: 24px;
+  width: 40%;
+  letter-spacing: 0.05em;
+  text-shadow: rgba(0, 0, 0, 0.25) 6px 5px 4px;
+  margin: 0 auto;
+
+  /* font-weight: bold; */
+}
+
+.container_sec3 {
+  margin-top: 100px;
+}
+
+.sec3_image {
+  margin-bottom: 24px;
+}
+/* section3 */
+
+/* sec4 */
+
+.section4_wrapper {
+  width: 100%;
+  background-image: url("images/sec3/layer-4-20201127094111.png");
+}
+
+.section4 {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.sec4_item img {
+  width: 70%;
+}
+
+.sec4_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.section4_title {
+  font-size: 65px;
+  font-family: flavour;
+  font-weight: bolder;
+  text-shadow: rgba(0, 0, 0, 0.25) 6px 5px 4px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.sec4_title {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* sec4 */
