@@ -605,7 +605,6 @@ hr {
   .section2,
   .section2_wrapper,
   .section3,
-  .section3_wrapper,
   .section4,
   .section4_wrapper,
   .sec5,
@@ -620,6 +619,11 @@ hr {
     margin-top: 900px;
     width: 420px;
     background-image: url("images/sec2/layer-3-20201127094111 (1).png");
+  }
+  .section3_wrapper {
+    width: auto;
+    margin: 0 auto;
+    background-image: url("images/sec3/layer-4-20201127094111.png");
   }
 
   .section1_wrapper {
@@ -714,5 +718,23 @@ hr {
   }
   .sec2_left {
     width: 60%;
+  }
+
+  .sec2_right img {
+    width: 100%;
+  }
+
+  .content_title {
+    font-size: 27px;
+    padding-top: 40px;
+  }
+  .content_text {
+    font-size: 13px;
+    width: 100%;
+  }
+  .container_sec3 {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
