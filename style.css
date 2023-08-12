@@ -587,9 +587,8 @@ hr {
 
 .call_btn {
   position: fixed;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  bottom: 100px;
+  left: 52px;
   width: 80px;
   height: 80px;
   background: rgb(42, 85, 75);
@@ -695,7 +694,6 @@ hr {
     width: 330px;
     background-image: none;
     margin: 0 auto;
-    animation: none;
   }
   .sec5_wrapper {
     height: 215px;
@@ -735,9 +733,9 @@ hr {
     padding-bottom: 10px;
   }
 
-  /* .call_btn {
+  .call_btn {
     left: 22px;
-  } */
+  }
 
   .fter {
     padding-top: 30px;
