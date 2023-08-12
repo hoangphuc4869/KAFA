@@ -15,6 +15,7 @@
       href="owlcarousel\assets\owl.theme.default.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="owlcarousel\owl.carousel.min.js"></script>
 
@@ -23,6 +24,7 @@
   <body>
     <div class="main">
       <div class="section1_wrapper position-relative">
+        
         <img
           src="images/responsive/vuu044381copy2-1-20201128084156.png"
           alt=""
@@ -41,35 +43,72 @@
               class="kafalogo"
             />
 
-            <p class="headline">
+            <p class="headline" data-aos ='slide-right'>
               Nhượng quyền thương hiệu <br />
               Phân khúc cà phê giá rẻ
             </p>
 
-            <h3 class="slogan">
+            <h3 class="slogan" data-aos ='slide-left'>
               nắm xu hướng <br />
               chắc thành công
             </h3>
 
-            <p class="signup_btn">
+            <p class="signup_btn" data-aos ='slide-right'>
               <a href="#sign">Đăng ký nhận thông tin</a>
             </p>
           </div>
+          <div class="mobile position-relative">
+          <div class="reason_mobile_title text-center ">6 LÝ DO LỰA CHỌN ĐẦU TƯ KAFA CAFÉ</div>
+          <div class="mobile_reasons d-flex flex-wrap">
+            <div class="reason_mobile">
+              <img src="images\sec1\star (1).png" alt="" />
+                    <p>
+                      MÔ HÌNH ĐẠI CHÚNG <br />
+                      PHÙ HỢP VỚI NGƯỜI VIỆT
+                    </p>
+            </div>
+            <div class="reason_mobile">
+              <img src="images\sec1\coin.png" alt="" />
+              <p>
+                XU HƯỚNG ĐẦU TƯ F&B <br />
+                THU HỒI VỐN NHANH NHẤT
+              </p>
+            </div>
+            <div class="reason_mobile">
+              <img src="images\sec1\sand_clock (1).png" alt="" />
+              <p>GIÁ TRỊ LÂU BỀN</p>
+            </div>
+            <div class="reason_mobile">
+              <img src="images/sec1/brand-ldp-1-20201127095124.png" alt="" />
+              <p>THƯƠNG HIỆU MẠNH</p>
+            </div>
+            <div class="reason_mobile">
+              <img src="images/sec1/cogwheel (1).png" alt="" />
+              <p>MÔ HÌNH CHUYÊN NGHIỆP:
+                  SẢN PHẨM, QUY TRÌNH, ĐÀO TẠO</p>
+            </div>
+            <div class="reason_mobile">
+              <img src="images/sec1/growth-ldp-1-20201127095130.png" alt="" />
+              <p>LỘ TRÌNH TĂNG TRƯỞNG HIỆU QUẢ</p>
+            </div>
+          </div>
+        </div>
 
           <img
             src="images\sec1\group-58-20201127095124.png"
             alt=""
-            class="sub_img"
+            class="sub_img" data-aos="fade-up-right"
           />
 
+
           <div class="container container_sec1">
-            <p class="reasons">6 LÝ DO LỰA CHỌN ĐẦU TƯ KAFA CAFÉ</p>
+            <p class="reasons" data-aos="zoom-out">6 LÝ DO LỰA CHỌN ĐẦU TƯ KAFA CAFÉ</p>
             <div class="row reason_row">
               <div class="col-xl-6">
                 <div class="item">
-                  <div class="reason">
+                  <div class="reason" data-aos="slide-right">
                     <img src="images\sec1\star (1).png" alt="" />
-                    <p>
+                    <p >
                       MÔ HÌNH ĐẠI CHÚNG <br />
                       PHÙ HỢP VỚI NGƯỜI VIỆT
                     </p>
@@ -78,7 +117,7 @@
               </div>
               <!-- col -->
               <div class="col-xl-6">
-                <div class="reason">
+                <div class="reason" data-aos="slide-left">
                   <img src="images\sec1\coin.png" alt="" />
                   <p>
                     XU HƯỚNG ĐẦU TƯ F&B <br />
@@ -88,14 +127,14 @@
               </div>
               <!-- col -->
               <div class="col-xl-6">
-                <div class="reason">
+                <div class="reason" data-aos="slide-right">
                   <img src="images\sec1\sand_clock (1).png" alt="" />
                   <p>GIÁ TRỊ LÂU BỀN</p>
                 </div>
               </div>
               <!-- col -->
               <div class="col-xl-6">
-                <div class="reason">
+                <div class="reason" data-aos="slide-left">
                   <img
                     src="images\sec1\brand-ldp-1-20201127095124.png"
                     alt=""
@@ -105,7 +144,7 @@
               </div>
               <!-- col -->
               <div class="col-xl-6">
-                <div class="reason">
+                <div class="reason" data-aos="slide-right">
                   <img src="images\sec1\cogwheel (1).png" alt="" />
                   <p>
                     MÔ HÌNH CHUYÊN NGHIỆP: <br />
@@ -115,7 +154,7 @@
               </div>
               <!-- col -->
               <div class="col-xl-6">
-                <div class="reason">
+                <div class="reason" data-aos="slide-left">
                   <img
                     src="images\sec1\growth-ldp-1-20201127095130.png"
                     alt=""
@@ -135,7 +174,7 @@
 
       <div class="section2_wrapper">
         <div class="section2 d-flex mx-auto align-items-center">
-          <div class="sec2_left">
+          <div class="sec2_left" data-aos="flip-left">
             <div class="sec2_title">BẢN ĐỒ KAFA TRÊN CẢ NƯỚC</div>
             <p class="sec2_text">
               Sở hữu mô hình “cà phê đường phố” với mạng lưới trên 50 điểm bán
@@ -148,7 +187,7 @@
             <p class="signup_btn"><a href="#sign">Tư vấn cho tôi</a></p>
           </div>
           <!-- sec2_left -->
-          <div class="sec2_right">
+          <div class="sec2_right" data-aos="flip-up">
             <img
               src="images\sec2\group-59-20201127095124.png"
               alt=""
@@ -164,12 +203,12 @@
       <div class="section3_wrapper">
         <div class="section3">
           <div class="sec3_content text-center">
-            <div class="content_title">Quy mô đầu tư</div>
-            <div class="content_text">
+            <div class="content_title" data-aos="fade-down">Quy mô đầu tư</div>
+            <div class="content_text" data-aos="fade-up">
               Kafa hỗ trợ tư vấn hoàn toàn miễn phí lựa chọn địa điểm và lên dự
               thảo tổng đầu tư để đạt hiệu quả kinh doanh tối ưu nhất
             </div>
-            <p class="signup_btn"><a href="#sign">Tư vấn cho tôi</a></p>
+            <p class="signup_btn" data-aos="fade-up-right"><a href="#sign">Tư vấn cho tôi</a></p>
           </div>
           <!-- sec3_content -->
 
@@ -194,6 +233,64 @@
               });
             });
           </script>
+          <div class="container container_mobile_sec3">
+            <div class="row" data-aos="fade-down-right">
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images/sec3/mask-group-5-20201127095131.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images/sec3/mask-group-4-20201127095131.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images/sec3/mask-group-8-20201127095138.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images/sec3/mask-group-7-20201127095138.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images/sec3/mask-group-6-20201127095131.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="sec3_image">
+                    <img
+                      src="images\sec3\mask-group-3-20201127095131.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+          <!-- container -->
           <div class="container container_sec3">
             <div class="row g-0">
               <div class="owl-carousel owl-theme">
@@ -259,9 +356,9 @@
       <!-- section3_wrapper -->
       <div class="section4_wrapper">
         <div class="section4">
-          <p class="section4_title">ĐỊNH VỊ THƯƠNG HIỆU</p>
+          <p class="section4_title" data-aos="fade-out">ĐỊNH VỊ THƯƠNG HIỆU</p>
           <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
               <div class="col-xl-4 col-sm-3">
                 <div class="sec4_item">
                   <img src="images/sec4/group-48.png" alt="" />
@@ -279,7 +376,7 @@
               <div class="col-xl-4 col-sm-3">
                 <div class="sec4_item">
                   <img src="images/sec4/group-47.png" alt="" />
-                  <div class="sec4_title">CHUYÊN NGHIỆP THÂN THIỆN</div>
+                  <div class="sec4_title">CHUYÊN NGHIỆP <br> THÂN THIỆN</div>
                 </div>
               </div>
 
@@ -296,7 +393,7 @@
               <div class="col-xl-4 col-sm-3">
                 <div class="sec4_item">
                   <img src="images/sec4/group-45-20201127095124 .png" alt="" />
-                  <div class="sec4_title">PHÂN KHÚC GIÁ RẺ DỄ TIẾP CẬN</div>
+                  <div class="sec4_title">PHÂN KHÚC GIÁ RẺ <br>DỄ TIẾP CẬN</div>
                 </div>
               </div>
 
@@ -318,7 +415,7 @@
       <div class="sec5_wrapper position-relative">
         <div class="sec_5_bg"></div>
         <div class="sec5">
-          <p class="sec5_text">
+          <p class="sec5_text" data-aos="slide-left">
             TỪ NÔNG TRƯỜNG <br />TỚI PHỐ PHƯỜNG <br />TỰ HÀO HẠT CÀ PHÊ
             <br />CỦA VIỆT NAM
           </p>
@@ -328,24 +425,37 @@
       <div class="sec6_wrapper position-relative">
         <div class="sec6_bg"></div>
         <div class="sec6 position-relative">
-          <div class="sec6_title">quy trình vận hành tối ưu</div>
-          <div class="img_list"></div>
-          <span class="head headline1">dịch vụ</span>
-          <span class="head headline2">
+          <div class="sec6_mobile">
+            <div class="sec6_mobile_title" data-aos="slide-right">QUY TRÌNH VẬN HÀNH <br>TỐI ƯU</div>
+            
+            <div class="children" data-aos="fade-up">
+              <p class="child">DỊCH VỤ</p>
+              <p class="child">CUNG ỨNG HÀNG HÓA</p>
+              <p class="child">SẢN PHẨM & KIỂM SOÁT CHẤT LƯỢNG</p>
+              <p class="child">MARKETING</p>
+              <p class="child">TÀI CHÍNH</p>
+            </div>
+
+
+          </div>
+          <div class="sec6_title" data-aos="fade-down">quy trình vận hành tối ưu</div>
+          <div class="img_list" data-aos="fade-down"></div>
+          <span class="head headline1" data-aos="fade-up">dịch vụ</span>
+          <span class="head headline2" data-aos="fade-up">
             Cung ứng <br />
             hàng hóa
           </span>
-          <span class="head headline3">
+          <span class="head headline3" data-aos="fade-up">
             sản phẩm & <br />
             kiểm soát <br />
             chất lượng
           </span>
-          <span class="head headline4">tài chính</span>
-          <span class="head headline5">marketing</span>
-          <p class="about_title">báo chí nói về chúng tôi</p>
+          <span class="head headline4" data-aos="fade-up">tài chính</span>
+          <span class="head headline5" data-aos="fade-up">marketing</span>
+          <p class="about_title" data-aos="zoom-out-left">báo chí nói về chúng tôi</p>
 
           <div class="container about_container">
-            <div class="row row1">
+            <div class="row row1" data-aos="flip-up">
               <div class="col-xl-6 col-sm-12">
                 <a
                   href="https://doanhnghiephoinhap.vn/deu-dan-mo-moi-ngay-trong-tam-dich-covid-19-kafa-cafe-lay-su-tu-tin-o-dau.html"
@@ -362,7 +472,7 @@
                     <a
                       href="https://doanhnghiephoinhap.vn/deu-dan-mo-moi-ngay-trong-tam-dich-covid-19-kafa-cafe-lay-su-tu-tin-o-dau.html"
                       target="_blank"
-                      >ĐỀU ĐẶN MỞ MỚI NGAY TRONG TÂM DỊCH <br />COVID-19, KAFA
+                      >ĐỀU ĐẶN MỞ MỚI NGAY TRONG TÂM DỊCH COVID-19, KAFA
                       CAFÉ LẤY SỰ TỰ TIN Ở ĐÂU?</a
                     >
                   </div>
@@ -377,7 +487,7 @@
               </div>
             </div>
             <!-- row1 -->
-            <div class="row row2">
+            <div class="row row2" data-aos="flip-down">
               <div class="col-xl-4">
                 <div class="blog">
                   <a
@@ -411,7 +521,7 @@
                     href="https://baodautu.vn/co-hoi-dau-tu-nhuong-quyen-kinh-doanh-ca-phe-mua-covid-19-d130873.html"
                     target="_blank"
                     ><img
-                      src="images/sec6/media-2-20201127095138.png"
+                      src="images/sec6/media-1-20201127095138.png"
                       alt=""
                       class="content_img"
                   /></a>
@@ -439,7 +549,7 @@
                     href="https://dantri.com.vn/kinh-doanh/kafa-cafe-chat-ha-noi-lay-lan-than-toc-20201022101713278.htm"
                     target="_blank"
                     ><img
-                      src="images/sec6/media-2-20201127095138.png"
+                      src="images/sec6/media-3-20201127095138.png"
                       alt=""
                       class="content_img"
                   /></a>
@@ -461,13 +571,13 @@
             </div>
           </div>
           <div class="counterparty">
-            <p class="counterparty_title">ĐỐI TÁC NÓI VỀ CHÚNG TÔI</p>
+            <p class="counterparty_title" data-aos="fade-up">ĐỐI TÁC NÓI VỀ CHÚNG TÔI</p>
 
             <div class="">
               <div class="container customer_container">
                 <div class="row justify-content-center">
                   <div class="col-xl-6">
-                    <div class="people">
+                    <div class="people" data-aos="slide-right">
                       <img
                         src="images/sec6/mask-group-1-20201127095131.png"
                         alt=""
@@ -482,9 +592,9 @@
                   </div>
 
                   <div class="col-xl-6">
-                    <div class="people">
+                    <div class="people" data-aos="slide-left">
                       <img
-                        src="images/sec6/mask-group-1-20201127095131.png"
+                        src="images/sec6/mask-group-2-20201127095131.png"
                         alt=""
                       />
                       <div class="name">CHỊ LƯƠNG THIẾU HOA</div>
@@ -506,10 +616,10 @@
 
         <div class="sec7_wrapper">
           <div
-            class="sec7 d-flex mx-auto justify-content-center align-items-center gap-5"
+            class="sec7 d-flex mx-auto justify-content-center align-items-center gap-5 "
           >
-            <div class="sec7_left">
-              <div class="left_title" id="sign">NẮM CƠ HỘI NGAY</div>
+            <div class="sec7_left" data-aos="flip-right">
+              <div class="left_title" id="sign" >NẮM CƠ HỘI NGAY</div>
               <form class="register d-flex flex-column" action="">
                 <label for="name">HỌ TÊN</label>
                 <input type="text" name="name" id="name" />
@@ -532,10 +642,10 @@
                   cols="30"
                   rows="1"
                 ></textarea>
-                <p class="signup_btn"><a href="#!">gửi đăng kí</a></p>
+                <p class="signup_btn _footer"><a href="#!">gửi đăng kí</a></p>
               </form>
             </div>
-            <div class="sec7_right">
+            <div class="sec7_right" data-aos="flip-left">
               <img src="images/sec7/mask-group-20201127095131.png" alt="" />
             </div>
           </div>
@@ -550,7 +660,7 @@
               Công ty CPTM & DV Cà phê Đường Phố <br />
               17 Lãng Yên,P. Thanh Lương, Q.Hai Bà Trưng, Hà Nội
             </div>
-            <div class="footer_right text-end">
+            <div class="footer_right">
               0357129999 <br />
               franchise@kafa.com.vn
             </div>
@@ -562,6 +672,31 @@
     <a href="#!" class="call_btn">
       <i class="fa-solid fa-phone-volume" style="color: #fff"></i>
     </a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 700, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-out', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+            </script>
 
     <script
       src="https://kit.fontawesome.com/9e8a8858d4.js"
