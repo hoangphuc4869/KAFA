@@ -302,7 +302,7 @@ a {
 
 .sec4_title {
   text-align: center;
-  font-size: 13px;
+  font-size: 27px;
   font-weight: bold;
 }
 
@@ -1290,5 +1290,8 @@ hr {
   .opinion {
     font-size: 17px;
     margin-bottom: 20px;
+  }
+  .sec4_title {
+    font-size: 13px;
   }
 }
